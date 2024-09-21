@@ -1,4 +1,4 @@
-import math
+import math, os
 import tkinter as tk
 from tkinter import DISABLED, NORMAL, TOP, Entry, Spinbox, StringVar, OptionMenu, ttk
 
@@ -6,6 +6,8 @@ from tkinter import DISABLED, NORMAL, TOP, Entry, Spinbox, StringVar, OptionMenu
 root = tk.Tk()
 
 root.title("Auto Clicker")
+#Uncomment when compiling into an exe
+# root.iconbitmap("AutoClickerGUI.exe")
 
 #Makes it so window stays specific size
 root.geometry("443x325")
